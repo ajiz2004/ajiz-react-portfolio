@@ -4,15 +4,16 @@ import './Projects.css'; // Import the CSS file
 const Projects = () => {
   const projects = [
     {
+      title: 'Employee Referral Management System',
+      image: require('../img/emp.jpg'), // Replace with relevant image
+      link: 'https://github.com/ajiz2004/EmployeeReferralMgmtSystem', // Link of the project
+    },
+    {
       title: 'Notes App',
       image: require('../img/notes img.jpg'), // Add local image using require
       link: 'https://github.com/ajiz2004/Ajiz-s-notes-backend', // Link of the project
     },
-    {
-      title: 'Permalist',
-      image: require('../img/permalist img.jpg'), // Replace with relevant image
-      link: 'https://github.com/ajiz2004/permalist', // Link of the project
-    },
+    
     {
       title: 'ChatDuo AI-Assistant',
       image: require('../img/Py.png'), // Replace with relevant image
